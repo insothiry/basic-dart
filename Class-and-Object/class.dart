@@ -1,4 +1,9 @@
+// the class keyword is use to define the class
+// BankAccount is the name of the class and must start with capital letter
 class BankAccount {
+  // Body of the class consists of properties and functions
+  // functions are used to perform the operations. It also known as 'methods'
+
   double _balance = 0;
   double get balance => _balance;
 
